@@ -1,12 +1,18 @@
-# React + Vite
+Overview:
+MyTodo is a lightweight, fast task management app that lets users add, update, complete, and delete tasks with ease. All tasks persist across sessions using local storage, so your to-do list stays intact even after closing the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+Add Tasks — Quickly create new tasks to keep track of what needs to be done.
+Update Tasks — Edit existing tasks to reflect changes.
+Complete Tasks — Mark tasks as done to track progress.
+Delete Tasks — Remove tasks that are no longer needed.
+Local Storage Persistence — Tasks are saved in the browser, so your list remains intact across sessions without needing a backend.
+Fully Responsive Design — Works smoothly across mobile, tablet, and desktop screens.
 
-Currently, two official plugins are available:
+Tech Stack:
+Frontend: React (with Vite)
+Styling: Tailwind CSS
+Persistence: Browser Local Storage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+License:
+This project is for personal/portfolio purposes and is not a real-world/production project.
